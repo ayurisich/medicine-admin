@@ -1,1 +1,0 @@
-export { MedicineList } from './list';

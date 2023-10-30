@@ -15,3 +15,10 @@ From master branch run
 ```
 npm run deploy
 ```
+
+### Stories missing
+- Save multiple timeline events for a date.
+- Make this a PWA by adding serviceWorker & manifest.
+- Notify users of upcoming timeline events.
+- Sync data between installed apps.
+
