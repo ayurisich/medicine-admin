@@ -1,10 +1,11 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Medicine Admin",
+  "name": "Medicine Admin: Take your medicine!",
+  "description": "Medicine taking management system",
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "sizes": "64x64",
       "type": "image/x-icon"
     },
     {
@@ -19,7 +20,31 @@
     }
   ],
   "start_url": ".",
+  "background_color": "#ffffff",
   "display": "standalone",
+  "scope": "/",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "shortcuts": [
+    {
+      "name": "Timeline for medications to be taken",
+      "short_name": "Timeline",
+      "description": "Timeline for medications to be taken based on the schedules",
+      "url": "/medicine-admin#/timeline",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Medications you are taking",
+      "short_name": "Medicines",
+      "description": "Manage the medications you take",
+      "url": "/medicine-admin#/medicines",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Schedule for taking a specific medication",
+      "short_name": "Schedules",
+      "description": "Manage the schedules for the medications you take",
+      "url": "/medicine-admin#/schedules",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    }
+  ]
 }
