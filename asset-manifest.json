@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/medicine-admin/static/css/main.31d6cfe0.css",
-    "main.js": "/medicine-admin/static/js/main.33f2ca88.js",
+    "main.js": "/medicine-admin/static/js/main.dc244f1c.js",
     "static/js/787.79e60e6e.chunk.js": "/medicine-admin/static/js/787.79e60e6e.chunk.js",
+    "service-worker.js": "/medicine-admin/service-worker.js",
     "index.html": "/medicine-admin/index.html",
-    "main.33f2ca88.js.map": "/medicine-admin/static/js/main.33f2ca88.js.map",
+    "main.dc244f1c.js.map": "/medicine-admin/static/js/main.dc244f1c.js.map",
     "787.79e60e6e.chunk.js.map": "/medicine-admin/static/js/787.79e60e6e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.33f2ca88.js"
+    "static/js/main.dc244f1c.js"
   ]
 }
